@@ -1,12 +1,12 @@
 # paron-principle
-A collection of Khun Paron Israsena's key principles often given to his peers
+
 
 ## Table of Contents
-1. [การเปลี่ยนแปลใด ๆ "CEO must be on board"](#การเปลี่ยนแปลใด-ๆ-ceo-must-be-on-board)
-2. [แนวคิดที่นำมาใช้ต้องปรับให้เข้ากับภูมิสังคมท้องถิ่น](#แนวคิดที่นำมาใช้ต้องปรับให้เข้ากับภูมิสังคมท้องถิ่น)
+1. [การเปลี่ยนแปลงใด ๆ "CEO must be on board"](#การเปลี่ยนแปลงใด-ๆ-ceo-must-be-on-board)
+2. [แนวคิดการเปลี่ยนแปลงต้องปรับให้เข้ากับภูมิสังคมท้องถิ่น](#แนวคิดการเปลี่ยนแปลงต้องปรับให้เข้ากับภูมิสังคมท้องถิ่น)
 3. [การใช้ Technology เน้น Learning how to learn](#การใช้-technology-เน้น-learning-how-to-learn)
 4. [การสร้างศรัทธา](#การสร้างศรัทธา)
-5. [การทำ Reflection, selflessness](#การทำ-reflection-selflessness)
+5. [การทำ Reflection และการลดอัตตา](#การทำ-reflection-และการลดอัตตา)
 6. [คนเป็นทรัพยากรที่มีค่าที่สุดขององค์กร](#คนเป็นทรัพยากรที่มีค่าที่สุดขององค์กร)
 7. [Help-on-demand](#help-on-demand)
 8. [Think Macro, do micro](#think-macro-do-micro)
@@ -14,7 +14,7 @@ A collection of Khun Paron Israsena's key principles often given to his peers
 
 ---
 
-## การเปลี่ยนแปลใด ๆ "CEO must be on board"
+## การเปลี่ยนแปลงใด ๆ "CEO must be on board"
 
 คุณพารณมักเข้าไปสร้างการเปลี่ยนแปลงในองค์กร ไม่ว่าจะเป็นโรงเรียน สถานประกอบการ หรือชุมชน คำพูดที่ว่า CEO Must be Onboard มาจากประสบการณ์ตรงที่ว่าการเปลี่ยนแปลงใด ๆ ถ้า "หัวหน้า" ไม่เอาด้วย ไม่จริงจัง หรือ "Lip service" คือพูดรับแต่หน้าโดยไม่คิดลงมือทำ  ก็ไม่มีทางที่จะสร้างการเปลี่ยนแปลงที่ยั่งยืนได้ 
 
@@ -22,46 +22,47 @@ A collection of Khun Paron Israsena's key principles often given to his peers
 
 ## แนวคิดการเปลี่ยนแปลงต้องปรับให้เข้ากับภูมิสังคมท้องถิ่น
 
+แนวคิด Constructionism เมื่อนำไปแนะนำให้กับชุมชนการเรียนรู้ใด คุณพารณจะสนับสนุนให้ชุมชนนั้นนำแนวคิดไปประยุกต์ใช้กับสิ่งที่สำคัญสำหรับเขา ไม่มีการใช้ "สูตรสำเร็จ" เพราะความยั่งยืนเกิดจากการค้นพบด้วยตนเองถึงประโยชน์ของหลักคิด ภายใต้สถานการณ์และบริบทท้องถิ่นที่ไม่ซ้ำกับที่อื่น 
 
 
 ---
 
 ## การใช้ Technology เน้น Learning how to learn
 
-[Description placeholder: Elaborate on the approach to technology adoption focusing on learning methodologies. Examples: MW, Lego-Logo, Electronic Magazine]
+เทคโนโลยีที่ใช้ในกิจกรรมการเรียนรู้ มักใช้เพื่อสร้างสถานการณ์ที่ไม่คุ้นเคยให้กับผู้เรียน และทำให้ต้องออกจาก Comfort Zone ของตนเอง มีโอกาสได้สะท้อนว่ามีการจัดการกับการเรียนรู้ของตนอย่างไร สามารถเรียนรู้เพื่อให้บรรลุเป้าหมายของกิจกรรมได้หรือไม่ 
 
 ---
 
 ## การสร้างศรัทธา
 
-[Description placeholder: Explain the principle of building faith and trust]
+คุณพารณกล่าวเสมอว่า การเปลี่ยนแปลงเกิดขึ้นได้ 3 วิธี คือ วิธีแรกใช้การสั่งให้เปลี่ยน ซึ่งเป็นวิธีที่ได้ผลน้อยที่สุด ต่อมาคือการเปลี่ยนเพราะเพื่อนรอบข้างเปลี่ยน เมื่อเห็นคนอื่นทำเราก็รู้สึกว่าต้องทำตาม ส่วนวิธีสุดท้ายคือ การเปลี่ยนเพราะศรัทธาในสิ่งที่เห็น วิธีนี้ทำให้เกิดขึ้นได้ยาก แต่ทรงพลังและยั่งยืนที่สุด
 
 ---
 
-## การทำ Reflection, selflessness
+## การทำ Reflection และการลดอัตตา
 
-[Description placeholder: Discuss the practice of reflection and selflessness, such as through Vipassana meditation]
+วัฏจักรการเรียนรู้จะสมบูรณ์ประกอบด้วย การรับ (การฟัง, การเรียน) การลอง และการสะท้อนคิด บ่อยครั้งผู้เรียนขาดข้อสุดท้ายจนเสียโอกาสเรียนรู้  คุณพารณจึงให้ความสำคัญกับการทำ Reflection ไม่ว่าจะเป็นเพียง 10 นาทีท้ายวัน หรือทั้งวัน ในการสัมมนาใหญ่ประจำปี  โดยการเรียนรู้จะเกิดขึ้นได้เมื่อผู้สะท้อนคิดไม่ยึดติดกับอคติต่าง ๆ 
 
 ---
 
 ## คนเป็นทรัพยากรที่มีค่าที่สุดขององค์กร
 
-[Description placeholder: Explain why people are the most valuable resource in an organization]
+การสร้างการเปลี่ยนแปลงใด ๆ คุณพารณให้ความสำคัญกับคนเป็นอันดับแรกเสมอ เพราะหากไม่มีคนแล้ว ไม่ว่าจะลงทุนเท่าใด ออกนโยบายที่สวยหรูเพียงใด ก็ไม่สามารถนำแนวคิดมาสร้างการเปลี่ยนแปลงที่ยั่งยืนได้ 
 
 ---
 
 ## Help-on-demand
 
-[Description placeholder: Describe the help-on-demand principle and the importance of having respected mentors. Examples: อ.ไกรวุฒิ, อ.อุดม, พี่นกจรัมพร]
+คุณพารณเป็นผู้ให้ความช่วยเหลือกับองค์กรที่ท่านทำงานด้วย แต่ความช่วยเหลือที่มอบให้นั้นมาจากความต้องการขององค์กรเป็นหลัก คุณพารณให้ความสำคัญกับการเข้าถึงพื้นที่ สร้างช่องทางสื่อสาร เพื่อให้เข้าใจความต้องการ ณ เวลานั้น ๆ ขององค์กร และสามารถตอบสนองได้อย่างทันท่วงที
 
 ---
 
 ## Think Macro, do micro
 
-[Description placeholder: Explain the principle of thinking at a macro level while executing at a micro level]
+การคิดการใด ๆ คุณพารณแนะนำว่าให้คิดใหญ่ได้ แต่ให้เริ่มทำเล็ก ๆ ก่อนเสมอ การคิดใหญ่ช่วยให้เข้าใจปลายทางว่าสุดท้ายแล้วอยากได้อะไร แต่การลงมือทำสร้างการเปลี่ยนแปลงเป็นสิ่งที่ซับซ้อนและใช้เวลา การเริ่มต้นเล็ก ๆ จะเปิดโอกาสให้ได้เรียนรู้ว่าจะต้องทำอย่างไรเพื่อให้ไปถึงปลายทางนั้นได้
 
 ---
 
 ## คิดเป็น ทำเป็น เรียนรู้เป็น ทำงานร่วมกับผู้อื่นได้อย่างเป็นกัลยาณมิตร สนใจใฝ่เรียนรู้จนติดนิสัยไปตลอดชีวิต
 
-[Description placeholder: Elaborate on the holistic principle encompassing critical thinking, practical skills, continuous learning, collaborative work with good friendship, and lifelong learning as a habit]
+คุณสมบัติของผู้เรียนที่คุณพารณพยายามสร้าง และเชื่อว่าจะนำไปสู่การพัฒนาประเทศชาติให้ก้าวหน้า และเป็นสุขได้
