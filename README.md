@@ -1,4 +1,4 @@
-# paron-principle
+# paron-principles
 
 
 ## Table of Contents
