@@ -123,8 +123,8 @@
     }
     .book-badge {
       position:absolute;
-      right:-22px;
-      top:22px;
+      right:2px;
+      bottom:-30px;
       font-size:.88rem;
       padding:10px 13px;
       background:var(--ink);
@@ -398,7 +398,6 @@
     @media (max-width:840px) {
       .hero { grid-template-columns:1fr; padding-top:18px; }
       .book-shell { width:min(72vw,340px); }
-      .book-badge { right:-10px; }
       .content h1 { font-size:clamp(3.2rem,15vw,6rem); }
       .authors { grid-template-columns:1fr; }
     }
@@ -573,7 +572,7 @@
     </p>
     <div class="dlg-actions">
       <button type="button" class="primary" id="dlg-close">
-        <span data-lang="th">รับทราบ ไว้พบกัน</span>
+        <span data-lang="th">รับทราบ</span>
         <span data-lang="en">Got it — see you then</span>
       </button>
       <button type="button" class="ghost" id="dlg-continue">
