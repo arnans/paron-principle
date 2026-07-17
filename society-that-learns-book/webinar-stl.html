@@ -349,6 +349,48 @@
       line-height:1.5;
       color:#80736e;
     }
+    dialog.early {
+      border:0;
+      border-radius:10px;
+      padding:26px 28px;
+      max-width:460px;
+      width:calc(100% - 40px);
+      box-shadow:var(--shadow);
+      color:var(--ink);
+      background:var(--white);
+    }
+    dialog.early::backdrop {
+      background:rgba(23,19,19,.55);
+      backdrop-filter:blur(3px);
+    }
+    .early h3 {
+      margin:0 0 10px;
+      font-family:Georgia,"Noto Serif Thai","Times New Roman",serif;
+      font-size:1.45rem;
+    }
+    .early p { margin:0 0 10px; line-height:1.7; }
+    .early .dlg-when { font-weight:800; color:var(--red); }
+    .dlg-actions { display:flex; gap:10px; margin-top:18px; flex-wrap:wrap; }
+    .dlg-actions button {
+      font-family:inherit;
+      font-size:1rem;
+      border-radius:5px;
+      cursor:pointer;
+    }
+    .dlg-actions .primary {
+      background:var(--red);
+      color:var(--white);
+      border:0;
+      padding:11px 18px;
+      font-weight:800;
+    }
+    .dlg-actions .ghost {
+      background:transparent;
+      border:2px solid rgba(23,19,19,.22);
+      padding:9px 16px;
+      font-weight:700;
+      color:var(--muted);
+    }
     [data-lang] { display:none; }
     body.lang-th [data-lang="th"], body.lang-en [data-lang="en"] { display:initial; }
     body.lang-th div[data-lang="th"], body.lang-en div[data-lang="en"],
@@ -516,6 +558,31 @@
     </div>
   </main>
 
+  <dialog class="early" id="early-dialog" aria-labelledby="early-title">
+    <h3 id="early-title">
+      <span data-lang="th">ยังไม่ถึงเวลา Webinar</span>
+      <span data-lang="en">The webinar hasn’t started yet</span>
+    </h3>
+    <p class="dlg-when">
+      <span data-lang="th">วันพุธที่ 22 กรกฎาคม 2569 · 09:00 น. เวลาไทย (เหลืออีก <span class="cd-days">–</span> วัน <span class="cd-hours">–</span> ชั่วโมง)</span>
+      <span data-lang="en">Wednesday, 22 July 2026 · 9:00 AM Thailand time (in <span class="cd-days">–</span> days <span class="cd-hours">–</span> hours)</span>
+    </p>
+    <p>
+      <span data-lang="th">ลิงก์นี้จะเปิดห้อง Zoom ได้ประมาณ 30 นาทีก่อนเวลาเริ่ม แนะนำให้เพิ่มกำหนดการลงปฏิทิน แล้วกลับมาคลิกลิงก์เดิมที่หน้านี้อีกครั้งก่อนเวลาเริ่ม</span>
+      <span data-lang="en">This link will open the Zoom room about 30 minutes before start time. Add the event to your calendar and come back to this same link shortly before the webinar begins.</span>
+    </p>
+    <div class="dlg-actions">
+      <button type="button" class="primary" id="dlg-close">
+        <span data-lang="th">รับทราบ ไว้พบกัน</span>
+        <span data-lang="en">Got it — see you then</span>
+      </button>
+      <button type="button" class="ghost" id="dlg-continue">
+        <span data-lang="th">เปิดลิงก์ Zoom ต่อไป</span>
+        <span data-lang="en">Open Zoom anyway</span>
+      </button>
+    </div>
+  </dialog>
+
   <script>
     const body = document.body;
     const buttons = [...document.querySelectorAll('[data-set-lang]')];
@@ -526,6 +593,32 @@
       document.documentElement.lang = lang;
       buttons.forEach(b => b.classList.toggle('active', b === btn));
     }));
+
+    // Early-click guard on Zoom links (QR scans go straight to Zoom and are not affected)
+    const MEETING_START = new Date('2026-07-22T09:00:00+07:00').getTime();
+    const EARLY_JOIN_MS = 30 * 60 * 1000; // Zoom room opens ~30 min before start
+    const dlg = document.getElementById('early-dialog');
+    let pendingHref = null;
+
+    document.querySelectorAll('a[href^="https://cmu-th.zoom.us"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const remaining = MEETING_START - Date.now();
+        if (remaining <= EARLY_JOIN_MS) return; // meeting time (or close enough) — let the link work
+        e.preventDefault();
+        pendingHref = a.href;
+        const days = Math.floor(remaining / 86400000);
+        const hours = Math.floor((remaining % 86400000) / 3600000);
+        dlg.querySelectorAll('.cd-days').forEach(el => el.textContent = days);
+        dlg.querySelectorAll('.cd-hours').forEach(el => el.textContent = hours);
+        dlg.showModal();
+      });
+    });
+
+    document.getElementById('dlg-close').addEventListener('click', () => dlg.close());
+    document.getElementById('dlg-continue').addEventListener('click', () => {
+      dlg.close();
+      if (pendingHref) window.open(pendingHref, '_blank', 'noopener');
+    });
   </script>
 </body>
 </html>
