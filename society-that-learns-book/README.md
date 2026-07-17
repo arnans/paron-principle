@@ -12,9 +12,9 @@ The two copies do **not** sync automatically.
 ## How to update the live page
 
 1. Edit `webinar-stl.html` here, then commit and push this repo.
-2. Copy the file into the local clone of the site repo (`C:\Users\arnan.s\Documents\stl-webinar`) as `index.html`:
+2. Copy the file into the local clone of the site repo as `index.html`, e.g. from the root of this repo:
    ```
-   cp society-that-learns-book/webinar-stl.html ../..(path to)/stl-webinar/index.html
+   copy society-that-learns-book\webinar-stl.html C:\Users\arnan.s\Documents\stl-webinar\index.html
    ```
 3. Commit and push `stl-webinar`. GitHub Pages redeploys automatically within a minute or two.
 
